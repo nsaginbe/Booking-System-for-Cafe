@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomeController" stylesheets="@style.css">
+   <Pane prefWidth="785.0">
+      <VBox alignment="TOP_CENTER" prefWidth="785.0" spacing="75.0">
+         <Label contentDisplay="CENTER" text="Welcome To EatWell" textFill="WHITE">
+            <graphic>
+               <ImageView fitHeight="400.0" fitWidth="785.0" pickOnBounds="true">
+                  <effect>
+                     <ColorAdjust brightness="-0.3" />
+                  </effect>
+                  <Image url="@photos/welcome_photo.jpg" />
+               </ImageView>
+            </graphic>
+            <font>
+               <Font name="Serif Bold" size="50.0" />
+            </font>
+         </Label>
+         <Label text="Come and eat well with our delicious &amp; healthy foods">
+            <font>
+               <Font name="Serif Bold" size="20.0" />
+            </font>
+         </Label>
+         <Label contentDisplay="CENTER" text="Discover Our Menu" textFill="WHITE">
+            <graphic>
+               <ImageView fitHeight="400.0" fitWidth="785.0" pickOnBounds="true">
+                  <effect>
+                     <ColorAdjust brightness="-0.3" />
+                  </effect>
+                  <Image url="@photos/menu_photo.jpg" />
+               </ImageView>
+            </graphic>
+            <font>
+               <Font name="Serif Bold" size="50.0" />
+            </font>
+         </Label>
+         <VBox alignment="TOP_CENTER" prefWidth="785.0" spacing="20.0">
+            <Label text="Sample Menu">
+               <font>
+                  <Font name="Serif Italic" size="30.0" />
+               </font>
+            </Label>
+            <GridPane prefHeight="360.0" prefWidth="785.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="200.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="585.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="120.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="120.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="120.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <Rectangle arcHeight="5.0" arcWidth="5.0" height="100.0" stroke="BLACK" strokeType="INSIDE" width="5.0" GridPane.halignment="RIGHT" GridPane.rowIndex="0" GridPane.valignment="CENTER" />
+               <Rectangle arcHeight="5.0" arcWidth="5.0" height="100.0" stroke="BLACK" strokeType="INSIDE" width="5.0" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+               <Rectangle arcHeight="5.0" arcWidth="5.0" height="100.0" stroke="BLACK" strokeType="INSIDE" width="5.0" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+               <VBox alignment="BASELINE_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="400.0" spacing="5.0" GridPane.columnIndex="1">
+                  <Label text="Croissant">
+                     <font>
+                        <Font name="Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label text="Enjoy our freshly baked croissant – golden, flaky, and delicious">
+                     <font>
+                        <Font name="Serif Regular" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="1100 KZT">
+                     <font>
+                        <Font name="Serif Italic" size="15.0" />
+                     </font>
+                  </Label>
+               </VBox>
+               <VBox alignment="BASELINE_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="400.0" spacing="5.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <Label text="Apple crepe">
+                     <font>
+                        <Font name="Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label text="Tender crepes filled with sweet, cinnamon-infused apples">
+                     <font>
+                        <Font name="Serif Regular" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="1500 KZT">
+                     <font>
+                        <Font name="Serif Italic" size="15.0" />
+                     </font>
+                  </Label>
+               </VBox>
+               <VBox alignment="BASELINE_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="400.0" spacing="5.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <Label text="Hazelnut cookies">
+                     <font>
+                        <Font name="Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label text="Crispy and delicious cookies baked with love">
+                     <font>
+                        <Font name="Serif Regular" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="1800 KZT">
+                     <font>
+                        <Font name="Serif Italic" size="15.0" />
+                     </font>
+                  </Label>
+               </VBox>
+            </GridPane>
+            <Button fx:id="refToMenu" focusTraversable="false" mnemonicParsing="false" onAction="#clickRefToMenu" prefHeight="30.0" prefWidth="100.0" text="Main Menu" />
+         </VBox>
+         <VBox alignment="TOP_CENTER" prefWidth="785.0" spacing="20.0">
+            <Label contentDisplay="CENTER" text="Book Your Table" textFill="WHITE">
+               <font>
+                  <Font name="Serif Bold" size="50.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="400.0" fitWidth="785.0" pickOnBounds="true">
+                     <effect>
+                        <ColorAdjust brightness="-0.3" />
+                     </effect>
+                     <Image url="@photos/book_photo.jpg" />
+                  </ImageView>
+               </graphic>
+            </Label>
+            <Button fx:id="refToBooking" focusTraversable="false" mnemonicParsing="false" onAction="#clickRefToBooking" prefHeight="30.0" prefWidth="100.0" text="Booking" />
+         </VBox>
+         <StackPane alignment="TOP_CENTER" prefHeight="400.0" prefWidth="785.0">
+            <ImageView fitHeight="400.0" fitWidth="785.0" pickOnBounds="true">
+               <Image url="@photos/about_photo.jpg" />
+            </ImageView>
+            <HBox prefHeight="400.0" prefWidth="785.0">
+               <VBox alignment="CENTER" prefHeight="400.0" prefWidth="300.0" spacing="10.0">
+                  <Label text="About Us" textFill="WHITE">
+                     <font>
+                        <Font name="Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label opacity="0.9" text="The EatWell in Almaty offers a fusion of local flavors and global culinary influences. We prioritize sourcing the freshest seasonal ingredients, ensuring each dish ignites the senses with its vibrant flavors. Committed to sustainability, we support local producers and aim to minimize our environmental impact while delivering exceptional dining experiences!" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Serif Regular" size="20.0" />
+                     </font>
+                  </Label>
+               </VBox>
+               <VBox prefHeight="400.0" prefWidth="185.0" />
+               <VBox alignment="CENTER" prefHeight="400.0" prefWidth="300.0" spacing="10.0">
+                  <Label text="Open Hours" textFill="WHITE">
+                     <font>
+                        <Font name="Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label opacity="0.9" text="Mon - Sun: 9:00 am - 11:00 pm" textFill="WHITE">
+                     <font>
+                        <Font name="Serif Regular" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label text="Reservation" textFill="WHITE">
+                     <font>
+                        <Font name="Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label opacity="0.9" text="8 775 069 73 76" textFill="WHITE">
+                     <font>
+                        <Font name="Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </VBox>
+            </HBox>
+         </StackPane>
+         <Line endX="100.0" opacity="0.0" startX="-100.0" />
+      </VBox>
+   </Pane>
+</ScrollPane>

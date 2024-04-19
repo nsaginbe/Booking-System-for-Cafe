@@ -1,0 +1,15 @@
+.menu {
+    -fx-background-color: rgba(109, 102, 102, 0.3);
+}
+.menu:hover {
+    -fx-background-color: rgba(64, 159, 192, 0.8);
+}
+.button {
+    -fx-background-color: rgb(187, 181, 173);
+}
+.button:hover {
+    -fx-background-color: rgba(64, 159, 192, 0.8);
+}
+
+.gallery {
+}

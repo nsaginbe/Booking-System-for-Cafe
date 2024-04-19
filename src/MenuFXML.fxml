@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuController" stylesheets="@style.css">
+   <VBox alignment="TOP_CENTER" prefWidth="785.0" spacing="30.0">
+      <Region prefHeight="0.0" prefWidth="785.0" />
+      <Label text="Menu">
+         <font>
+            <Font name="Serif Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" text="Coffee" textFill="WHITE">
+         <graphic>
+            <Rectangle fill="#6d6666" height="50.0" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="550.0" />
+         </graphic>
+         <font>
+            <Font name="Serif Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <VBox alignment="CENTER" prefWidth="785.0" spacing="10.0">
+         <Label text="Long Macchiato">
+            <font>
+               <Font name="Serif Italic" size="20.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefWidth="400.0" text="A double shot of espresso, stained with milky foam" textAlignment="CENTER" wrapText="true">
+            <font>
+               <Font name="Serif Regular" size="15.0" />
+            </font>
+         </Label>
+         <Label text="1200 KZT">
+            <font>
+               <Font name="Serif Bold" size="15.0" />
+            </font>
+         </Label>
+      </VBox>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <VBox alignment="CENTER" prefWidth="785.0" spacing="10.0">
+         <Label text="Choc Mocha">
+            <font>
+               <Font name="Serif Italic" size="20.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefWidth="400.0" text="Rich chocolate mixed with a double shot of espresso. Served with steamed milk and a small layer of foam" textAlignment="CENTER" wrapText="true">
+            <font>
+               <Font name="Serif Regular" size="15.0" />
+            </font>
+         </Label>
+         <Label text="1400 KZT">
+            <font>
+               <Font name="Serif Bold" size="15.0" />
+            </font>
+         </Label>
+      </VBox>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <VBox alignment="CENTER" prefWidth="785.0" spacing="10.0">
+         <Label text="Hot Chocolate">
+            <font>
+               <Font name="Serif Italic" size="20.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefWidth="400.0" text="Rich chocolate with steamed milk and a small layer of foam" textAlignment="CENTER" wrapText="true">
+            <font>
+               <Font name="Serif Regular" size="15.0" />
+            </font>
+         </Label>
+         <Label text="1000 KZT">
+            <font>
+               <Font name="Serif Bold" size="15.0" />
+            </font>
+         </Label>
+      </VBox>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <Label contentDisplay="CENTER" text="Lunch" textFill="WHITE">
+         <graphic>
+            <Rectangle fill="#6d6666" height="50.0" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="550.0" />
+         </graphic>
+         <font>
+            <Font name="Serif Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <VBox alignment="CENTER" prefWidth="785.0" spacing="10.0">
+         <Label text="Assorted Paninis">
+            <font>
+               <Font name="Serif Italic" size="20.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefWidth="400.0" text="Delicious paninis made fresh everyday with local, seasonal fillings" textAlignment="CENTER" wrapText="true">
+            <font>
+               <Font name="Serif Regular" size="15.0" />
+            </font>
+         </Label>
+         <Label text="2200 KZT">
+            <font>
+               <Font name="Serif Bold" size="15.0" />
+            </font>
+         </Label>
+      </VBox>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <VBox alignment="CENTER" prefWidth="785.0" spacing="10.0">
+         <Label text="Chicken Toasties">
+            <font>
+               <Font name="Serif Italic" size="20.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefWidth="400.0" text="Chicken and oozing cheese encased in golden, crunchy bread" textAlignment="CENTER" wrapText="true">
+            <font>
+               <Font name="Serif Regular" size="15.0" />
+            </font>
+         </Label>
+         <Label text="1800 KZT">
+            <font>
+               <Font name="Serif Bold" size="15.0" />
+            </font>
+         </Label>
+      </VBox>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <VBox alignment="CENTER" prefWidth="785.0" spacing="10.0">
+         <Label text="Assorted Quiches">
+            <font>
+               <Font name="Serif Italic" size="20.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefWidth="400.0" text="Real men do eat quiche! Salad optional" textAlignment="CENTER" wrapText="true">
+            <font>
+               <Font name="Serif Regular" size="15.0" />
+            </font>
+         </Label>
+         <Label text="2000 KZT">
+            <font>
+               <Font name="Serif Bold" size="15.0" />
+            </font>
+         </Label>
+      </VBox>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <Label contentDisplay="CENTER" text="Salad" textFill="WHITE">
+         <graphic>
+            <Rectangle fill="#6d6666" height="50.0" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="550.0" />
+         </graphic>
+         <font>
+            <Font name="Serif Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <VBox alignment="CENTER" prefWidth="785.0" spacing="10.0">
+         <Label text="Peanut Chicken Salad">
+            <font>
+               <Font name="Serif Italic" size="20.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefWidth="400.0" text="Simple, satisfying and appealing on a plate or in your grab-n-go deli case" textAlignment="CENTER" wrapText="true">
+            <font>
+               <Font name="Serif Regular" size="15.0" />
+            </font>
+         </Label>
+         <Label text="1600 KZT">
+            <font>
+               <Font name="Serif Bold" size="15.0" />
+            </font>
+         </Label>
+      </VBox>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <VBox alignment="CENTER" prefWidth="785.0" spacing="10.0">
+         <Label text="Asian Grain Salad">
+            <font>
+               <Font name="Serif Italic" size="20.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefWidth="400.0" text="An easy to prepare salad that holds well-making it perfect for a healthy lunch or takeout option" textAlignment="CENTER" wrapText="true">
+            <font>
+               <Font name="Serif Regular" size="15.0" />
+            </font>
+         </Label>
+         <Label text="1200 KZT">
+            <font>
+               <Font name="Serif Bold" size="15.0" />
+            </font>
+         </Label>
+      </VBox>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <VBox alignment="CENTER" prefWidth="785.0" spacing="10.0">
+         <Label text="Thai Carrot Salad">
+            <font>
+               <Font name="Serif Italic" size="20.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefWidth="400.0" text="Tender grilled chicken skewers served over a vibrant carrot salad with cucumber, cabbage, peppers, green onions and cilantro" textAlignment="CENTER" wrapText="true">
+            <font>
+               <Font name="Serif Regular" size="15.0" />
+            </font>
+         </Label>
+         <Label text="1900 KZT">
+            <font>
+               <Font name="Serif Bold" size="15.0" />
+            </font>
+         </Label>
+      </VBox>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <Region prefHeight="0.0" prefWidth="785.0" />
+   </VBox>
+</ScrollPane>
